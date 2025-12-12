@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mc Raven — Portfolio</title>
+  <meta name="description" content="Personal portfolio of [Mc Raven] — web developer, designer, projects and contact." />
+
+  <!-- Bootstrap 5 CSS (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#hero">
+          <img src="UDD_LOGO.png" alt="logo" class="me-2 logo" />
+          <span class="brand-text">Portfolio</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item ms-lg-3"><a class="btn btn-primary nav-cta" href="#projects">View My Work</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <h1 class="display-5 fw-bold">Hi, I'm <span class="accent">Mc Raven</span></h1>
+            <p class="lead mb-4">Aspiring Web Developer — building responsive websites using HTML, CSS, JavaScript & Bootstrap.</p>
+            <a href="#projects" class="btn btn-lg btn-outline-primary me-2">See Projects</a>
+            <a href="#contact" class="btn btn-lg btn-primary">Contact Me</a>
+          </div>
+          <div class="col-md-5 text-center">
+            <img src="photo.jpg" alt="Profile photo" class="img-fluid rounded-circle profile-photo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-8">
+            <article>
+              <h2>About Me</h2>
+              <p>I am a student at Universidad de Dagupan studying multimedia systems and web-based programming.
+                I enjoy building clean UI, learning modern frontend tools, and solving problems through code.
+              </p>
+              <p>Strengths: responsive design, semantic HTML, basic JS, Git & GitHub deployment.</p>
+            </article>
+          </div>
+          <aside class="col-lg-4">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Quick Info</h5>
+                <ul class="list-unstyled mb-0">
+                  <li><strong>Location:</strong> Mapandan, Pangasinan, Philippines</li>
+                  <li><strong>Email:</strong> <a href="mailto:maningdingmm.662.stud@cdd.edu.ph">maningdingmm.662.stud@cdd.edu.ph</a></li>
+                  <li><strong>Availability:</strong> Open to internships & collaborations</li>
+                </ul>
+                <div class="mt-3">
+                  <a href="#" class="btn btn-sm btn-outline-secondary">Download CV</a>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-5">
+      <div class="container">
+        <h2 class="mb-4">Skills</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card p-3 h-100">
+              <h6>HTML5</h6>
+              <div class="progress" role="progressbar" aria-label="HTML skill level" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 90%;">90%</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card p-3 h-100">
+              <h6>CSS / Bootstrap</h6>
+              <div class="progress"><div class="progress-bar" style="width: 85%;">85%</div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card p-3 h-100">
+              <h6>JavaScript</h6>
+              <div class="progress"><div class="progress-bar" style="width: 60%;">60%</div></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card p-3 h-100">
+              <h6>Design (Figma)</h6>
+              <div class="progress"><div class="progress-bar" style="width: 50%;">50%</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-5 bg-light">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2 class="mb-0">Selected Projects</h2>
+          <small class="text-muted">A few class and personal projects</small>
+        </div>
+
+        <div class="row g-4">
+          <!-- Project card 1 -->
+          <div class="col-md-6 col-lg-4">
+            <article class="card project-card h-100 shadow-sm">
+              <img src="assets/project1-placeholder.png" class="card-img-top" alt="Project 1 screenshot" />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Project One</h5>
+                <p class="card-text">A short description of the project: tech used, purpose, and what you contributed.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a class="btn btn-sm btn-outline-primary" href="#" target="_blank" rel="noopener">View Demo</a>
+                  <a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noopener">View Code</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Project card 2 -->
+          <div class="col-md-6 col-lg-4">
+            <article class="card project-card h-100 shadow-sm">
+              <img src="assets/project2-placeholder.png" class="card-img-top" alt="Project 2 screenshot" />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Project Two</h5>
+                <p class="card-text">Another project — brief description and highlights.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a class="btn btn-sm btn-outline-primary" href="#" target="_blank" rel="noopener">View Demo</a>
+                  <a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noopener">View Code</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Project card 3 -->
+          <div class="col-md-6 col-lg-4">
+            <article class="card project-card h-100 shadow-sm">
+              <img src="assets/project3-placeholder.png" class="card-img-top" alt="Project 3 screenshot" />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Project Three</h5>
+                <p class="card-text">Short description: what it does and what you learned building it.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a class="btn btn-sm btn-outline-primary" href="#" target="_blank" rel="noopener">View Demo</a>
+                  <a class="btn btn-sm btn-primary" href="#" target="_blank" rel="noopener">View Code</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="needs-validation" novalidate>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input id="name" name="name" type="text" class="form-control" placeholder="Your name" required>
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" type="email" class="form-control" placeholder="you@example.com" required>
+                <div class="invalid-feedback">Please enter a valid email.</div>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" rows="5" class="form-control" placeholder="Say hi…" required></textarea>
+                <div class="invalid-feedback">Please enter a message.</div>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Contact Info</h5>
+                <p class="mb-1"><strong>Email:</strong> <a href="mailto:maningdingmm.662.stud@cdd.edu.ph">maningdingmm.662.stud@cdd.edu.ph</a></p>
+                <p class="mb-1"><strong>GitHub:</strong> <a href="https://github.com/McRaven2" target="_blank" rel="noopener">https://github.com/McRaven2</a></p>
+                <p class="mb-1"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mc-raven-maningding-ab626437a/" target="_blank" rel="noopener">https://www.linkedin.com/in/mc-raven-maningding-ab626437a/</a></p>
+                <hr>
+                <p class="small text-muted">Prefer email? I'll reply within a few business days.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div>&copy; <span id="year"></span> Your Name</div>
+      <div>
+        <a href="#" class="text-white me-3">GitHub</a>
+        <a href="#" class="text-white me-3">LinkedIn</a>
+        <a href="#" class="text-white">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Small JS: year + form validation -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Bootstrap form validation
+    (function () {
+      'use strict'
+      const forms = document.querySelectorAll('.needs-validation')
+      Array.from(forms).forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+          form.classList.add('was-validated')
+        }, false)
+      })
+    })()
+  </script>
+</body>
+</html>
